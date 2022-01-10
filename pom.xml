@@ -10,4 +10,14 @@
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
+  
+  <configuration>
+    <archive>
+      <manifest>
+        <addClasspath>true</addClasspath>
+        <classpathPrefix>lib/</classpathPrefix>
+        <mainClass>com.test.one.App</mainClass>
+      </manifest>
+    </archive>
+  </configuration>
 </project>
